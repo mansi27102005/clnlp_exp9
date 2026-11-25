@@ -1,0 +1,7 @@
+model,accuracy,macro_precision,macro_recall,macro_f1,weighted_precision,weighted_recall,weighted_f1
+LinearSVM_Tuned,0.9635,0.9652,0.9648,0.9649,0.9633,0.9635,0.9632
+LinearSVM,0.9635,0.9652,0.9648,0.9649,0.9633,0.9635,0.9632
+BiLSTM,0.9624,0.9645,0.9626,0.9635,0.9624,0.9624,0.9623
+LogisticRegression,0.9598,0.9614,0.961,0.9611,0.9597,0.9598,0.9597
+LinearSVM_WordOnly_Ablation,0.9561,0.959,0.9574,0.9581,0.956,0.9561,0.9559
+MultinomialNB,0.8273,0.8734,0.822,0.83,0.8656,0.8273,0.8288
