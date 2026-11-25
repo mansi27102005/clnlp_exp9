@@ -167,6 +167,6 @@ jupyter notebook notebooks/02_experiments.ipynb
 ## 7. Team Members & License
 
 * **Team Members:**
-  * `[Student Name 1]` — `[Roll Number]`
-  * `[Student Name 2]` — `[Roll Number]`
+  * Mansi Naidu
+  * Vansh Bhatia
 * **License:** This project is released for academic and educational use under the [MIT License](https://opensource.org/licenses/MIT).
