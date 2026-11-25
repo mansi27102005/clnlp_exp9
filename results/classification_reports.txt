@@ -1,89 +1,83 @@
 === MultinomialNB ===
               precision    recall  f1-score   support
 
-       Anger     0.9484    0.8427    0.8924      1068
-     Anxiety     0.9670    0.7834    0.8656       711
-  Depression     0.6124    0.9793    0.7536      1015
-     Neutral     0.9501    0.6115    0.7441      1184
-    Positive     0.8047    0.9392    0.8668      1465
-     Sadness     0.9577    0.7760    0.8573       933
+       Anger     0.9476    0.8464    0.8942      1068
+     Anxiety     0.9671    0.7848    0.8665       711
+  Depression     0.6159    0.9793    0.7562      1015
+     Neutral     0.9505    0.6166    0.7480      1184
+    Positive     0.8050    0.9386    0.8667      1465
+     Sadness     0.9589    0.7760    0.8578       933
 
-    accuracy                         0.8273      6376
-   macro avg     0.8734    0.8220    0.8300      6376
-weighted avg     0.8656    0.8273    0.8288      6376
-
+    accuracy                         0.8289      6376
+   macro avg     0.8742    0.8236    0.8315      6376
+weighted avg     0.8664    0.8289    0.8303      6376
 
 === LogisticRegression ===
               precision    recall  f1-score   support
 
-       Anger     0.9653    0.9906    0.9778      1068
-     Anxiety     0.9873    0.9831    0.9852       711
+       Anger     0.9644    0.9906    0.9774      1068
+     Anxiety     0.9873    0.9817    0.9845       711
   Depression     0.9303    0.9202    0.9252      1015
-     Neutral     0.9527    0.9189    0.9355      1184
-    Positive     0.9597    0.9754    0.9675      1465
+     Neutral     0.9510    0.9181    0.9343      1184
+    Positive     0.9590    0.9741    0.9665      1465
      Sadness     0.9733    0.9775    0.9754       933
 
-    accuracy                         0.9598      6376
-   macro avg     0.9614    0.9610    0.9611      6376
-weighted avg     0.9597    0.9598    0.9597      6376
-
+    accuracy                         0.9592      6376
+   macro avg     0.9609    0.9604    0.9605      6376
+weighted avg     0.9591    0.9592    0.9591      6376
 
 === LinearSVM ===
               precision    recall  f1-score   support
 
        Anger     0.9645    0.9934    0.9788      1068
-     Anxiety     0.9915    0.9902    0.9909       711
-  Depression     0.9500    0.9172    0.9333      1015
-     Neutral     0.9555    0.9240    0.9395      1184
-    Positive     0.9605    0.9782    0.9692      1465
+     Anxiety     0.9888    0.9902    0.9895       711
+  Depression     0.9519    0.9172    0.9343      1015
+     Neutral     0.9539    0.9257    0.9396      1184
+    Positive     0.9624    0.9775    0.9699      1465
      Sadness     0.9694    0.9861    0.9777       933
 
-    accuracy                         0.9635      6376
-   macro avg     0.9652    0.9648    0.9649      6376
-weighted avg     0.9633    0.9635    0.9632      6376
+    accuracy                         0.9636      6376
+   macro avg     0.9652    0.9650    0.9649      6376
+weighted avg     0.9635    0.9636    0.9634      6376
 
-
-=== LinearSVM_WordOnly_Ablation ===
+=== LinearSVM_WordOnly ===
               precision    recall  f1-score   support
 
-       Anger     0.9625    0.9850    0.9736      1068
-     Anxiety     0.9915    0.9873    0.9894       711
-  Depression     0.9363    0.9123    0.9242      1015
-     Neutral     0.9496    0.9223    0.9357      1184
-    Positive     0.9442    0.9706    0.9573      1465
-     Sadness     0.9699    0.9668    0.9683       933
+       Anger     0.9616    0.9850    0.9732      1068
+     Anxiety     0.9887    0.9873    0.9880       711
+  Depression     0.9362    0.9103    0.9231      1015
+     Neutral     0.9470    0.9206    0.9336      1184
+    Positive     0.9448    0.9693    0.9569      1465
+     Sadness     0.9710    0.9689    0.9700       933
 
-    accuracy                         0.9561      6376
-   macro avg     0.9590    0.9574    0.9581      6376
-weighted avg     0.9560    0.9561    0.9559      6376
-
+    accuracy                         0.9555      6376
+   macro avg     0.9582    0.9569    0.9575      6376
+weighted avg     0.9554    0.9555    0.9553      6376
 
 === LinearSVM_Tuned ===
               precision    recall  f1-score   support
 
        Anger     0.9645    0.9934    0.9788      1068
-     Anxiety     0.9915    0.9902    0.9909       711
-  Depression     0.9500    0.9172    0.9333      1015
-     Neutral     0.9555    0.9240    0.9395      1184
-    Positive     0.9605    0.9782    0.9692      1465
+     Anxiety     0.9888    0.9902    0.9895       711
+  Depression     0.9519    0.9172    0.9343      1015
+     Neutral     0.9539    0.9257    0.9396      1184
+    Positive     0.9624    0.9775    0.9699      1465
      Sadness     0.9694    0.9861    0.9777       933
 
-    accuracy                         0.9635      6376
-   macro avg     0.9652    0.9648    0.9649      6376
-weighted avg     0.9633    0.9635    0.9632      6376
-
+    accuracy                         0.9636      6376
+   macro avg     0.9652    0.9650    0.9649      6376
+weighted avg     0.9635    0.9636    0.9634      6376
 
 === BiLSTM ===
               precision    recall  f1-score   support
 
-       Anger     0.9633    0.9822    0.9726      1068
-     Anxiety     0.9929    0.9873    0.9901       711
-  Depression     0.9468    0.9123    0.9293      1015
-     Neutral     0.9356    0.9451    0.9403      1184
-    Positive     0.9677    0.9809    0.9742      1465
-     Sadness     0.9805    0.9678    0.9741       933
+       Anger     0.9588    0.9794    0.9690      1068
+     Anxiety     0.9958    0.9887    0.9922       711
+  Depression     0.9466    0.9084    0.9271      1015
+     Neutral     0.9435    0.9307    0.9371      1184
+    Positive     0.9439    0.9761    0.9597      1465
+     Sadness     0.9740    0.9625    0.9682       933
 
-    accuracy                         0.9624      6376
-   macro avg     0.9645    0.9626    0.9635      6376
-weighted avg     0.9624    0.9624    0.9623      6376
-
+    accuracy                         0.9569      6376
+   macro avg     0.9604    0.9576    0.9589      6376
+weighted avg     0.9569    0.9569    0.9567      6376
