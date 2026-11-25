@@ -1,0 +1,41 @@
+# Python & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.Python
+venv/
+.venv/
+env/
+ENV/
+
+# Raw and processed dataset files (large CSVs; download from Mendeley Data)
+data/raw/*.csv
+data/raw/*.xlsx
+data/raw/*.zip
+data/processed/*.csv
+data/processed/*.parquet
+
+# Keep folder structure & dataset README
+!data/raw/.gitkeep
+!data/raw/README.txt
+!data/processed/.gitkeep
+
+# Saved large model artifacts & vectorizers
+models/*.pkl
+models/*.joblib
+models/*.pt
+models/*.pth
+models/*.bin
+models/*.safetensors
+models/*.json
+!models/.gitkeep
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
